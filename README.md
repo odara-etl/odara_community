@@ -27,6 +27,16 @@ The engine is written in **Rust** on top of **Apache DataFusion** (Arrow-based),
 and the editor is **React**. No server to host, no account to create — download
 the binary, run it, open your browser.
 
+## Screenshots
+
+| Visual editor | After a run |
+|---|---|
+| ![editor](docs/screenshots/editor.png) | ![run](docs/screenshots/run-progress.png) |
+
+The built-in AI assistant generates SQL or Python nodes from a description:
+
+![AI assistant](docs/screenshots/ai-assistant.png)
+
 ## Get Started in 5 minutes
 
 1. **Download** the build for your OS from [odaraetl.com](https://odaraetl.com)
