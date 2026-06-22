@@ -121,6 +121,8 @@ Odara is **open-core**, **not open source**: this repository is a public
 showcase (presentation, docs, downloads). The product source code is
 proprietary and lives in a private repository.
 
+See [LICENSE](LICENSE) for the full Community Edition End User License Agreement.
+
 ---
 
 Questions, bugs, or feature ideas? See [FEEDBACK.md](FEEDBACK.md) or open an
