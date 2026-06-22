@@ -51,13 +51,9 @@ The built-in AI assistant generates SQL or Python nodes from a description:
    Odara starts on port **3002** and opens `http://localhost:3002` in your
    browser automatically.
 
-3. **Log in** with the default admin account created on first launch:
-
-   | Email | Password |
-   |-------|----------|
-   | `admin@odara.rs` | `odara123` |
-
-   Change the password after first login.
+3. **Create your admin account.** On first launch, accept the license
+   agreement, then set up the first admin account with your own email and
+   password. Use those credentials to log in from then on.
 
 4. **Build your first pipeline**
    - Click **+** to open a new pipeline tab
