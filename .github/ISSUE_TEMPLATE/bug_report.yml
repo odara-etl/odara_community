@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in Odara isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please don't include real credentials,
+        connection strings, or production data.
+  - type: input
+    id: version
+    attributes:
+      label: Odara version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do? Include the node types involved if relevant.
+      placeholder: |
+        1. Add a CSV Source pointing at ...
+        2. Add a SQL Transform with ...
+        3. Run the pipeline
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected to happen
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+      description: Paste error messages or attach screenshots.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional)
+      description: Relevant log output. This will be rendered as code.
+      render: shell

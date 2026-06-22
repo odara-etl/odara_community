@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://odara.rs
+    about: Guides and reference for using Odara
+  - name: Security issue (do not open a public issue)
+    url: mailto:info@odara.rs
+    about: Email us directly for anything security-related
+  - name: General questions
+    url: mailto:info@odara.rs
+    about: Reach the team at info@odara.rs

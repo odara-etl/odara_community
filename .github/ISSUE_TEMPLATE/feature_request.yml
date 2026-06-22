@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement or a new capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem you're trying to solve — that helps us find the
+        best fix, not just the one you have in mind.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: "I need to read data from ... but Odara can't ..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Odara to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you've tried (optional)
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Connectors (source/target)
+        - Transforms (SQL / Python / Mapper)
+        - AI assistant
+        - Editor / UI
+        - Performance
+        - Other
