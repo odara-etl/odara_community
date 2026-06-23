@@ -43,6 +43,7 @@ The built-in AI assistant generates SQL or Python nodes from a description:
    (or [odara.rs](https://odara.rs)).
    - **Windows** — `odara_0.1.0_windows_amd64.zip`
    - **Linux** — `odara_0.1.0_amd64.deb`
+   - **macOS** — coming soon
 
 2. **Run it**
    - **Windows**: extract the zip, double-click `odara.exe`
